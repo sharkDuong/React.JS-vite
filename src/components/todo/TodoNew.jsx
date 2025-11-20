@@ -1,4 +1,8 @@
-const TodoNew = () => {
+const TodoNew = (props) => {
+  console.log("Props received in TodoNew:", props);
+  const {addNewTodo} = props;
+  // addNewTodo("duong");
+
   return (
     <div className="todo-form">
           <input 
