@@ -1,0 +1,5 @@
+const BookPage = () => {
+  return <h1>Products</h1>;
+};
+
+export default BookPage;
