@@ -8,6 +8,7 @@ import UserPage from "./pages/user.jsx";
 import BookPage from "./pages/book.jsx";
 import ErrorPage from "./pages/error.jsx";
 import "./styles/global.css";
+import "antd/dist/antd.css";
 import TodoApp from "./components/todo/TodoApp.jsx";
 const router = createBrowserRouter([
   {
